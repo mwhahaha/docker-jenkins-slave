@@ -2,13 +2,14 @@ docker-jenkins-slave
 ------
 Sets up a docker container with jenkins slave with the assistance of puppet.
 
+If the master is running in docker, make sure to specify a JNLP port and properly map it.  You can configure the port via Configure Jenkins -> Configure Global Security -> TCP port for JNLP slave agents.
+
 NOTE: this is a work in progress
 
 Usage
 ------
 ```
 ```
-The jenkins instance is available via port #####.
 
 Build
 -----
